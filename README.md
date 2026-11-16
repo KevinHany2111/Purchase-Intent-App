@@ -58,15 +58,14 @@ The cut-off between the groups comes from the threshold chosen in the notebook (
 
 1. Clone the repository:
    ```
-   git clone https://github.com/[your-username]/[your-repo].git
-   cd [your-repo]
+   git clone https://github.com/KevinHany2111/Purchase-Intent-App.git
+   cd Purchase-Intent-App
    ```
 2. Create and activate a virtual environment, then install the packages:
    ```
    python -m venv venv
    venv\Scripts\activate
    pip install -r requirements.txt
-   pip install jupyter ipykernel matplotlib seaborn
    ```
 3. Download the dataset (link below) and put `online_shoppers_intention.csv` in the project folder. The dataset is not included in this repository.
 4. Open the notebook and run all cells. This trains the models and creates `purchase_model.joblib` and `threshold.json`. You can skip this step because the saved files are already in the repository.
